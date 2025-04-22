@@ -9,9 +9,8 @@ This project visualizes and compares the environmental impact of six diet groups
 
 | File | Description |
 |------|-------------|
-| `radar_analysis_project.ipynb` | Main notebook: data processing, normalization, static radar chart, and Plotly interactive chart |
-| `radar_matrix_refined.ipynb` | Subplot matrix: 12 radar charts showing individual diet × gender patterns with values |
-| `interactive_radar_chart.html` | Fully interactive radar chart (Plotly) — open in any browser to explore group differences |
+| `radar_analysis_project.ipynb` | Notebook: data processing, normalization, static radar chart. Matrix: 12 radar charts showing individual diet × gender patterns with values|
+| `html_code.ipynb` | Fully interactive radar chart (Plotly) — open in any browser to explore group differences |
 | `radar_chart.png` | 
 | `radar_matrix_grid_with_labels.png` | 
 | `interactive_radar_chart.html` | 
