@@ -11,9 +11,13 @@ This project visualizes and compares the environmental impact of six diet groups
 |------|-------------|
 | `radar_analysis_project.ipynb` | Notebook: data processing, normalization, static radar chart. Matrix: 12 radar charts showing individual diet × gender patterns with values|
 | `html_code.ipynb` | Fully interactive radar chart (Plotly) — open in any browser to explore group differences |
-| `radar_chart.png` | 
-| `radar_matrix_grid_with_labels.png` | 
-| `interactive_radar_chart.html` | 
+| `radar_chart.png` | This radar chart displays the normalized environmental impact of six diet groups (vegan to high meat-eater), separately for males and females.
+Each line represents one group, with male groups in solid lines and female groups in dashed lines.
+The chart compares five key ecological indicators: GHG emissions, land use, water use, eutrophication, and biodiversity|
+| `radar_matrix_grid_with_labels.png` |This subplot matrix contains 12 individual radar charts, each representing one combination of diet group and gender.
+Each panel is clearly labeled, and the chart includes exact normalized values on each axis point |
+| `interactive_radar_chart.html` | A fully interactive radar chart built using Plotly.
+Users can hover to view detailed values, toggle visibility of specific groups using the legend, and zoom/pan the radar space|
 ---
 
 #  Indicators Visualized
